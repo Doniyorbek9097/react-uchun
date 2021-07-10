@@ -9,8 +9,12 @@ color: white;
 main{
   width: 100%;
   height: 100%;
-  background-image: url("img/notbook.png");
-  
+  background-color: rgb(184, 184, 184);
+  img{
+    width: 100%;
+    height: 100vh;
+    
+  }
   nav{
     width: 100%;
     height: 80px;
