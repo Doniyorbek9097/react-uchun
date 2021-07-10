@@ -5,6 +5,7 @@ import Footer from "./Footer";
 export default function Main(){
   return(
     <main>
+      
     <Navbar/>
     <Footer/>
     </main>
