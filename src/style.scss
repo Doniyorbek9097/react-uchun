@@ -257,7 +257,10 @@ main {
       justify-content: center;
       flex-direction: column;
       .slider-box{
-        background-image: url("");
+        width: 800px;
+        height: 300px;
+        background-image: url("https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Vector3.png");
+        background-repeat: no-repeat;
       }
     }
 
