@@ -40,22 +40,157 @@ export default function Home() {
           </div>
 
           <form action="">
-            <input type="text" placeholder="Телефон"/>
+            <input type="text" placeholder="Телефон" />
             <button>Заказать ремонт</button>
           </form>
         </div>
       </section>
 
       <section className="home-section-3">
+        <h1>Почему мы?</h1>
         <div className="why-us-box">
-          <h1>Почему мы?</h1>
           <div className="why-us-card">
-            
+            <img
+              src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/location-pin.png"
+              alt="location"
+            />
+            <h1>Выезжаем</h1>
+            <p>Не нужно никуда ехать, что вы? Мы сами к вам приедем</p>
           </div>
-          <div className="why-us-card"></div>
-          <div className="why-us-card"></div>
+          <div className="why-us-card">
+            <img
+              src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/settings%20(1).png"
+              alt="settings"
+            />
+            <h1>Ремонтируем</h1>
+            <p>15 минут примерно постоите рядышком и все — готово</p>
+          </div>
+          <div className="why-us-card">
+            <img
+              src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/settings.png"
+              alt=""
+            />
+            <h1>Довольны как слон</h1>
+            <p>
+              Пока вы радуетесь сделанному устройству, мы вам еще гарантию
+              вручим.
+            </p>
+          </div>
         </div>
       </section>
+
+      <section className="home-section-4">
+        <div className="table-box">
+          <table>
+            <tbody className="table-1">
+              <thead>
+                <tr>
+                  <th>Частые неисправности</th>
+                </tr>
+              </thead>
+
+              <tr>
+                {' '}
+                <td>Не загружается</td> <td>от 750 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не включается</td> <td>от 750 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Сам выключается</td> <td>от 750 Р</td>
+              </tr>
+              <tr>
+                {' '}
+                <td>Шумит</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Сильно греется</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Медленно работает</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Проблемы со звуком</td> <td>от 900 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не видит устройства</td> <td>от 220 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не работает веб-камера</td> <td>от 500 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Интернет, Wi-Fi</td> <td>от 170 Р</td>{' '}
+              </tr>
+            </tbody>
+
+            <tbody className="table-2">
+              <thead>
+                <tr>
+                  <th>Цены на ремонт</th>
+                </tr>
+              </thead>
+
+              <tr>
+                {' '}
+                <td>Не загружается</td> <td>от 750 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не включается</td> <td>от 750 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Сам выключается</td> <td>от 750 Р</td>
+              </tr>
+              <tr>
+                {' '}
+                <td>Шумит</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Сильно греется</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Медленно работает</td> <td>от 870 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Проблемы со звуком</td> <td>от 900 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не видит устройства</td> <td>от 220 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Не работает веб-камера</td> <td>от 500 Р</td>{' '}
+              </tr>
+              <tr>
+                {' '}
+                <td>Интернет, Wi-Fi</td> <td>от 170 Р</td>{' '}
+              </tr>
+            </tbody>
+
+            <a href="#">Показать все</a>
+          </table>
+        </div>
+      </section>
+
+      <section className="home-section-5">
+              <h1>Нам доверяют</h1>
+              <div className="slider-box">
+                <div className="slider-text"></div>
+              </div>
+        </section>
     </div>
   );
 }
