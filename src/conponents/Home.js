@@ -3,33 +3,59 @@ import React from 'react';
 export default function Home() {
   return (
     <div className="Home">
-      <div className="about-me-box">
-        <h1>Hey, I am DONIYORBEK ERGASHEV</h1>
-        <p>
-          - a web developer based in Namangan, Uzbekistan. In 2017, after
-          <br/>
-          <br/>
-          graduated from Tashkent University of Information Technologies, I
-          started my career as a front-end web developer. Over the last 3 years
-          I have been building digital products and helping people bring their
-          ideas come to life. I ,as a developer, love coding, learning a new
-          technology, reading a book and having a coffee in the morning :).
-        </p>
-        <p>
-          Enough about me. Let’s make the world a better place. If you have any
-          cool projects or opportunities, get in touch! 
-        </p>
+      <section className="home-section-1">
+        <div className="title-box">
+          <div className="title">
+            <h1>
+              Ремонт <span>MacBook</span>
+            </h1>
+            <h2>за 15 минут</h2>
+          </div>
 
-        <div className="contact-box">
-          <a href="tel:+99834073322">CONTACT</a>
+          <div className="description-box">
+            <p>Используем только оригинальные запчасти</p>
+            <p>Выезжаем по всей Москве и области</p>
+            <p>Бесплатный выезд мастера или доставка в сервис</p>
+          </div>
+
+          <div className="contact-btn">
+            <a href="tel:+998934073322">Заказать звонок</a>
+          </div>
         </div>
-      </div>
-      <div className="my-img-box">
-        <img
-          src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Rectangle%201459.png"
-          alt=""
-        />
-      </div>
+
+        <div className="title-img-box">
+          <img
+            src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Rectangle%201459.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section className="home-section-2">
+        <div className="skitka-box">
+          <div className="title-box">
+            <h1>Новым клиентам</h1>
+            <h1> 25% скидка до 17 июня</h1>
+            <p>Перезвоним через 2 минуты</p>
+          </div>
+
+          <form action="">
+            <input type="text" placeholder="Телефон"/>
+            <button>Заказать ремонт</button>
+          </form>
+        </div>
+      </section>
+
+      <section className="home-section-3">
+        <div className="why-us-box">
+          <h1>Почему мы?</h1>
+          <div className="why-us-card">
+            
+          </div>
+          <div className="why-us-card"></div>
+          <div className="why-us-card"></div>
+        </div>
+      </section>
     </div>
   );
 }

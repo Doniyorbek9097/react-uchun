@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: monospace;
-  color: white;
+  font-family: play;
+  color: rgba(68, 68, 68, 1);
+  ;
 }
 
 main {
   width: 100%;
   height: 100%;
-  background-color: rgb(184, 184, 184);
   img {
     width: 100%;
     height: 100vh;
@@ -21,16 +24,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 100px;
     .logo {
       display: flex;
       height: 100%;
       align-items: center;
-      .logo-icon {
-        font-size: 40px;
+      img {
+        width:40px;
+        height: 40px;
+        margin: 0 10px;
       }
       h1 {
-        font-size: 40px;
+        font-size: 30px;
+        color: white;
       }
     }
     .nav-list {
@@ -38,9 +44,15 @@ main {
       li {
         margin: 0 30px;
         list-style: none;
-        font-size: 25px;
+        font-size: 15px;
         a {
+          color: white;
           text-decoration: none;
+        }
+        
+        .active{
+          border: 1px solid white;
+          padding: 10px 20px;
         }
       }
     }
@@ -50,51 +62,111 @@ main {
     
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .about-me-box,
-    .my-img-box {
-      width: 50%;
-      height: 100vh;
-      overflow: hidden;
-    }
-    .about-me-box {
-      padding: 100px 40px;
-    
-      h1 {
-        font-size: 50px;
-      }
-
-      p {
-        font-size: 20px;
-      }
-      .contact-box{
-        padding: 20px 0;
-        a{
-          padding: 15px 30px;
-          background-color:rgb(139, 139, 139);
-          text-decoration:none;
-          border-radius:5px;
-        }
-      }
-      h1,
-      p,
-      .contact-box{
-        margin: 20px 0;
-      }
-
-    }
-    .my-img-box {
+    .home-section-1{
+      width: 100%;
+      height: 554px;
       display: flex;
       align-items: center;
       justify-content: center;
-      img {
-        width: 100%;
-        height: 100%;
-      }
+      flex-wrap: wrap;
     }
+    .title-box{
+      width: 55%;
+      height: 100%;
+      padding: 0 100px 0 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .title{
+        h1{
+          font-size: 80px;
+          span{
+            color: black;
+            -webkit-text-fill-color: white; 
+            -webkit-text-stroke-width: 1.9px;
+            -webkit-text-stroke-color:rgba(11, 159, 132, 1);
+            ;
+          }
+        }
+        h2{
+          font-size: 50px;
+        }
+      }
+
+      .description-box{
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+        p{
+          padding:0 20px 0 0;
+        }
+
+      }
+
+      .contact-btn{
+      margin: 30px 0;
+      a{
+        padding: 15px 30px;
+        background: rgba(11, 159, 132, 1);
+        color: white;
+        text-decoration: none;
+      }
+      }
+
+    } 
+    
+      .title-img-box{
+        width:45%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img{
+          height: 100%;
+        }
+      }
+
+      .home-section-2{
+        width: 100%;
+        height: 231px;
+        background: rgba(228, 241, 244, 1);
+        .skitka-box{
+          width:100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 100px;
+
+          .title-box{
+            width: 50%;
+            height: 100%;
+            h1,p{
+              margin: 3px 0;
+            }
+            
+          }
+          form{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            input,button{
+              margin: 0 10px;
+              padding: 15px 30px;
+              border: none;
+            }
+            button{
+              background: rgba(11, 159, 132, 1);
+              color: white;
+            }
+          }
+        }
+      }
   }
+
+
 
   .Contact {
     width: 100%;
