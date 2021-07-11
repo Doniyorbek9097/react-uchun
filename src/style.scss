@@ -2,32 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+font-family: monospace;
+color: white;
 }
 
 main{
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background-color: rgb(184, 184, 184);
   
-  
-  .logo{
-    width: 30%;
-    font-family: cursive;
-    span{
-      color: red;
-    }
-  }
   nav{
     width: 100%;
     height: 80px;
-    background-color: rgba(5, 5, 5, 0.429);
+    background: rgba(11, 159, 132, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
     .logo{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      .logo-icon{
+        font-size: 40px;
+      }
       h1{
-        font-size: 50px;
-        text-transform: capitalize;
+        font-size: 40px;
+         
       }
     }
     .nav-list{
@@ -38,7 +39,7 @@ main{
         font-size: 25px;
         a{
           text-decoration: none;
-          color: black;
+          
         }
       }
     }
@@ -47,16 +48,16 @@ main{
   .Home{
     width: 100%;
     height: 100vh;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
   }
 
   .Contact{
     width: 100%;
     height: 100vh;
-    background-color:blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,15 +65,13 @@ main{
   .Services{
     width: 100%;
     height: 100vh;
-    background-color: blueviolet;
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
   } 
   .Portfoilo{
     width: 100%;
     height: 100vh;
-    background-color:green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +80,6 @@ main{
   .About{
     width: 100%;
     height: 100vh;
-    background-color: slateblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,8 +88,7 @@ main{
   .ErrorPage{
     width: 100%;
     height: 100vh;
-    background-color:yellow;
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -99,7 +96,7 @@ main{
   footer{
     width: 100%;
     height: 50vh;
-    background-color: black;
+    background: rgba(11, 159, 132, 1);
   }
 //Main end
 }
