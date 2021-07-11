@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <div className="my-img-box">
         <img
-          src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/png-transparent-zac-efron-high-school-musical-makin-the-cut-celebrity-troy-bolton-zac-efron-2015.png"
+          src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Rectangle%201459.png"
           alt=""
         />
       </div>
