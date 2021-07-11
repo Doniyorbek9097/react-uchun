@@ -1,21 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-font-family: monospace;
-color: white;
+  font-family: monospace;
+  color: white;
 }
 
-main{
+main {
   width: 100%;
   height: 100%;
   background-color: rgb(184, 184, 184);
-  img{
+  img {
     width: 100%;
     height: 100vh;
-    
   }
-  nav{
+  nav {
     width: 100%;
     height: 80px;
     background: rgba(11, 159, 132, 1);
@@ -23,57 +22,95 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    .logo{
+    .logo {
       display: flex;
       height: 100%;
       align-items: center;
-      .logo-icon{
+      .logo-icon {
         font-size: 40px;
       }
-      h1{
+      h1 {
         font-size: 40px;
-         
       }
     }
-    .nav-list{
+    .nav-list {
       display: flex;
-      li{
+      li {
         margin: 0 30px;
         list-style: none;
         font-size: 25px;
-        a{
+        a {
           text-decoration: none;
-          
         }
       }
     }
   }
 
-  .Home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .Home {
     
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about-me-box,
+    .my-img-box {
+      width: 50%;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .about-me-box {
+      padding: 100px 40px;
     
+      h1 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+      .contact-box{
+        padding: 20px 0;
+        a{
+          padding: 15px 30px;
+          background-color:rgb(139, 139, 139);
+          text-decoration:none;
+          border-radius:5px;
+        }
+      }
+      h1,
+      p,
+      .contact-box{
+        margin: 20px 0;
+      }
+
+    }
+    .my-img-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
-  .Contact{
+  .Contact {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .Services{
+  .Services {
     width: 100%;
     height: 100vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-  } 
-  .Portfoilo{
+  }
+  .Portfoilo {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -81,7 +118,7 @@ main{
     justify-content: center;
   }
 
-  .About{
+  .About {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -89,24 +126,23 @@ main{
     justify-content: center;
   }
 
-  .ErrorPage{
+  .ErrorPage {
     width: 100%;
     height: 100vh;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  footer{
+  footer {
     width: 100%;
     height: 50vh;
     background: rgba(11, 159, 132, 1);
-    img{
+    img {
       width: 200px;
       height: 200px;
       position: absolute;
-
     }
   }
-//Main end
+  //Main end
 }
