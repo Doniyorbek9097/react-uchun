@@ -198,8 +198,14 @@ export default function Home() {
                 </div>
 
                 <div className="slider-img-box">
-                  <img src="" alt=""/>
+                  <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/cheerful-man-pointing-finger-left-advertise-product%201.png" alt=""/>
                 </div>
+              </div>
+        </section>
+
+        <section className="home-section-6">
+              <div className="content-box">
+                <img src="" alt=""/>
               </div>
         </section>
     </div>
