@@ -6,7 +6,8 @@ import Services from "../conponents/Services";
 import Portfoilo from "../conponents/Portfoilo";
 import About from "../conponents/About";
 import ErrorPage from "../conponents/ErrorPage";
-import AppleIcon from '@material-ui/icons/Apple';
+import Bars from "../conponents/Bars";
+
  export default function Navbar(){
    return(
      <Router>
@@ -24,6 +25,9 @@ import AppleIcon from '@material-ui/icons/Apple';
           <li><a href="tel:+998934073322" className="active">Заказать звонок</a></li>
         
        </ul>
+
+      <Bars/>
+
      </nav>
 
       <Switch>

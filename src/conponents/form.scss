@@ -1,0 +1,20 @@
+form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input,
+  button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    border: none;
+    font-family: play;
+  }
+  button {
+    background: rgba(11, 159, 132, 1);
+    color: white;
+    border: 1px solid white;
+    
+  }
+}

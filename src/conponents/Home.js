@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Form from "./Form";
 export default function Home() {
   return (
     <div className="Home">
@@ -38,11 +38,7 @@ export default function Home() {
             <h1> 25% скидка до 17 июня</h1>
             <p>Перезвоним через 2 минуты</p>
           </div>
-
-          <form action="">
-            <input type="text" placeholder="Телефон" />
-            <button>Заказать ремонт</button>
-          </form>
+            <Form/>
         </div>
       </section>
 
@@ -180,7 +176,9 @@ export default function Home() {
               </tr>
             </tbody>
 
-            <a href="#">Показать все</a>
+           <div className="table-btn">
+           <a href="#">Показать все</a>
+           </div>
           </table>
         </div>
       </section>
@@ -191,22 +189,57 @@ export default function Home() {
                 <div className="slider-text">
                   <h1>Евгений</h1>
                   <p>«Перебрал несколько предложений от сервисных центров, в компании Spets Apple больше всего понравилось, на все вопросы ответили и цены подошли. Описал беспокоящие в работе iPad 7 моменты, сразу получил возможные пути решения. Курьер забрал устройство на диагностику, отзвонились по итогам осмотра, выполнили ремонт. Результат порадовал, без лишнего ожидания и наценок. Спасибо! Буду рекомендовать всем знакомым.»</p>
-                  <div className="slider-btn">
-                    <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/prevbtn.png" alt=""/>
-                    <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/nextbtn.png" alt=""/>
-                  </div>
+                
                 </div>
 
                 <div className="slider-img-box">
                   <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/cheerful-man-pointing-finger-left-advertise-product%201.png" alt=""/>
                 </div>
+
+                <div className="slider-btn">
+                    <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/prevbtn.png" alt=""/>
+                    <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/nextbtn.png" alt=""/>
+                  </div>
               </div>
         </section>
 
         <section className="home-section-6">
               <div className="content-box">
-                <img src="" alt=""/>
+               <div className="img-box">
+               <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Rectangle%201466.png" alt=""/>
+               </div>
+                <div className="text-box" style={{textAlign:"right"}}>
+                    <h1>Какие виды работ по ремонту Macbook выполняются на дому</h1>
+                    <br/>
+                    <br/>
+                    <p>Нередко из-за несоблюдения правил эксплуатации даже надежные ноутбуки Apple выходят из строя. Причиной могут быть удары или падения, попадание жидкости и грязи внутрь техники. При появлении проблем не пытайтесь устранить их самостоятельно, и незамедлительно обращайтесь к специалистам нашего сервиса, специализирующегося на ремонте Macbook, Мы поможем в случаях, когда произошли механические повреждения корпуса, устройство не включается, не работает экран или клавиатура, не заряжается батарея, замечены проблемы с охлаждением, или выявлены другие неполадки в работе.
+<br/>
+<br/>
+Если внешний воздействий не было, в ряде случаев работоспособность ноутбука можно восстановить путем переустановки операционной системы. Также мы выполняем базовые настройки, включая создание аккаунта Apple ID, устанавливаем программы (Skype, MS Office, браузеры и другие), антивирусную защиту, настраиваем периферийное оборудование. 
+Все задачи, при которых не требуется сложный ремонт Макбук, быстро выполняются в домашних условиях или в офисе. Также на месте может быть произведена чистка, замена некоторых запчастей и элементов конструкции с целью модернизации.</p>
+                </div>
+
+    
+
               </div>
+
+              
+              <div className="content-box">
+                <div className="text-box" style={{textAlign:"left"}}>
+                    <h1>Ремонт ноутбуков Apple в сервисном центре</h1>
+                    <br/>
+                    <br/>
+                    <p>Если по результатам выполненной диагностики мастера выявили серьезные поломки, которые невозможно устранить на месте, техника будет бесплатно доставлена в наш сервисный центр, выполняющий ремонт ноутбуков Apple. Мы быстро и аккуратно устраняем неисправности любой сложности на высокотехнологичных стендах. Все необходимые элементы и комплектующие – видеокарты, тачпады, клавиатуры, корпусные детали, аккумуляторы и другие, всегда есть на складе, поэтому клиентам не приходится долгое время ждать их доставки. На все проведенные работы предоставляется гарантийный срок.</p>
+                </div>
+
+                <div className="img-box">
+               <img src="https://stackblitz.com/files/react-uchun/github/Doniyorbek9097/react-uchun/master/src/img/Rectangle%201468.png" alt=""/>
+               </div>
+             
+    
+
+              </div>
+
         </section>
     </div>
   );
